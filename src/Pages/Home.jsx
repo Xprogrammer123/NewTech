@@ -24,7 +24,10 @@ export const Home = () => {
       <div className="relative z-10">
       <HeroSection />
         <ServicesSection />
+        <ClientSection/>
         <ProjectsSection />
+        <TechnologySection/>
+        <TestimonialSection/>
       </div>
     </motion.div>
   );
